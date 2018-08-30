@@ -1,3 +1,3 @@
-prototype(Ttree.UntilMidnight:Seconds) < prototype(Fusion:Value) {
+prototype(Ttree.UntilMidnight:Seconds) < prototype(Neos.Fusion:Value) {
     value = ${86400 - (Date.now().timestamp % 86400)}
 }
